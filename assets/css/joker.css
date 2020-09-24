@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+
+
+html {
+    width: 100%;
+}
+
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+h3 {
+
+    padding: 50px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-image: url(../pictures/davisuko-rhUU1pemhQ0-unsplash.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.fourth p {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    padding: 5%;
+}
+
+@media screen and (max-width:768px) {
+
+  
+.list{
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    background-image: url(../pictures/tim-marshall-sBHLP9iD-Pk-unsplash.jpg);
+    color: white;
+    font-size:20px ;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: center;
+}
+
+.fourth p {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+}

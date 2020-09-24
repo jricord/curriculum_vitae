@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+/* article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+} */
+
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 60%;
+    min-height: 100%;
+}
+
+h3 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.first p {
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ananas {
+    width: 28vw;
+    height: 30vh;
+    position: absolute;
+    left: 45px;
+    top: 259px;
+    z-index: -801;
+    box-shadow: 0 0 10px blue;
+}
+
+#phone {
+    width: 17%;
+    position: absolute;
+    top: 50px;
+    right: 545px;
+    z-index: -802;
+    box-shadow: 0 0 10px yellow;
+}
+
+#guitare {
+    width: 15%;
+    position: absolute;
+    top: 300px;
+    right: 135px;
+    z-index: -803;
+    box-shadow: 0 0 10px pink;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+@media screen and (max-width:768px) {
+
+    #ananas {
+        min-width: 38%;
+        max-width: 40%;
+        min-height: 18%;
+        max-height: 20%;
+        left: 45px;
+        top: 459px;
+
+    }
+
+    #phone {
+        max-width: 42%;
+        min-width: 40%;
+        min-height: 35%;
+        max-height: 38%;
+        top: 850px;
+        right: 45px;
+
+    }
+
+    #guitare {
+        min-width: 35%;
+        max-width: 36%;
+        max-height: 30%;
+        min-height: 25%;
+        top: 80px;
+        right: 10px;
+
+
+    }
+
+}

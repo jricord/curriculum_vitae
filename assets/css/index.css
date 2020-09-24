@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header-name {
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    width: 100%;
+
+}
+
+/* .contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+/* a img {
+    width: 19%;
+} */
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+
+a {
+    display: flex;
+    height: 100%;
+}
+
+
+
+.pitch {
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-position: 25% 75%;
+
+}
+
+.degree {
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/joshua-coleman-kFRKvJQtNHg-unsplash.jpg);
+}
+
+.experience {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/mike-meyers--haAxbjiHds-unsplash.jpg);
+    background-position: 25% 75%;
+}
+
+.competence {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/davisuko-rhUU1pemhQ0-unsplash.jpg);
+    background-position: 40% 25%;
+
+}
+
+.hobbies {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/emma-paillex-vkDOP4bHIng-unsplash.jpg);
+    background-position: 45% 75%;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    align-items: baseline;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    transform: rotate(-90deg);
+    letter-spacing: 4px;
+}
+
+strong {
+    font-size: 22px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    
+    .header-name{
+        min-width: 100%;
+    }
+    
+    .header-name h1 {
+        font-size: 20px;
+
+    }
+
+    .header-name strong {
+        font-size: 10px;
+
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}

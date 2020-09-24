@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+
+
+
+html {
+    width: 100%;
+}
+
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+h3 {
+
+    padding: 50px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.fifth p {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#vinyl {
+    width: 20%;
+    position: absolute;
+    left: 845px;
+    top: 459px;
+    z-index: -800;
+    box-shadow: 0 0 12px black;
+
+}
+
+
+
+#surf {
+    width: 25%;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: -900;
+    box-shadow: 0 0 12px black;
+}
+
+#board {
+    width: 25%;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    z-index: -1000;
+    box-shadow: 0 0 12px black;
+
+}
+
+#musique {
+    width: 25%;
+    position: absolute;
+    top: 460px;
+    right: 885px;
+    z-index: -1000;
+    box-shadow: 0 0 12px black;
+
+}
+
+@media screen and (max-width:1024px) {
+    .fifth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .fifth p {
+
+        text-align: center;
+    }
+
+    #surf {
+        max-width: 35%;
+        max-height: 20%;
+        position: absolute;
+        top: 450px;
+        left: 45px;
+        z-index: -900;
+        box-shadow: 0 0 12px black;
+    }
+
+    #board {
+        max-width: 45%;
+        max-height: 20%;
+        position: absolute;
+        top: 50px;
+        right: 225px;
+        z-index: -1000;
+        box-shadow: 0 0 12px black;
+
+    }
+
+    #musique {
+        max-width: 35%;
+        position: absolute;
+        top: 560px;
+        right: 5px;
+        z-index: -1000;
+        box-shadow: 0 0 12px black;
+
+    }
+
+    #vinyl {
+        max-width: 30%;
+        position: absolute;
+        left: 285px;
+        top: 320px;
+        z-index: -800;
+        box-shadow: 0 0 12px black;
+
+    }
+
+
+}
