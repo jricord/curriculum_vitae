@@ -1,0 +1,694 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 270px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../pictures/mike-meyers--haAxbjiHds-unsplash.jpg);
+    opacity: 50%;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 100%;
+
+}
+
+
+li {
+
+    list-style: none;
+    background-color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    font-family: 'Rock Salt', cursive;
+    
+
+}
+
+li a {
+    padding: 10px;
+
+}
+
+nav {
+    z-index: 3000;
+    align-self: flex-start;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+ul {
+    display: none;
+    padding-inline-start: 0;
+
+}
+
+ul.active {
+    display: block;
+}
+
+.header-name {
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+a {
+    display: flex;
+    height: 100%;
+}
+
+.pitch {
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-position: 25% 75%;
+}
+
+.degree {
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/joshua-coleman-kFRKvJQtNHg-unsplash.jpg);
+}
+
+.experience {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/mike-meyers--haAxbjiHds-unsplash.jpg);
+    background-position: 25% 75%;
+}
+
+.competence {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/davisuko-rhUU1pemhQ0-unsplash.jpg);
+    background-position: 40% 25%;
+}
+
+.hobbies {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-image: url(../pictures/emma-paillex-vkDOP4bHIng-unsplash.jpg);
+    background-position: 45% 75%;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 60%;
+    min-height: 100%;
+}
+
+.first p {
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.second p {
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.third {
+    padding: 20px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: column;
+}
+
+.third p {
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.fourth p {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifth p {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.heart {
+    text-align: center;
+    padding: 50px;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    align-items: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    transform: rotate(-90deg);
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.title-joker {
+
+    padding: 50px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-image: url(../pictures/davisuko-rhUU1pemhQ0-unsplash.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atouts {
+    display: flex;
+    padding: 35px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.atouts h4 {
+    font-size: 30px;
+}
+
+.title-pro {
+    position: absolute;
+    top: 500px;
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    font-family: 'Rock Salt', cursive;
+}
+
+.job {
+    padding: 40px;
+
+}
+
+#ananas {
+    width: 28vw;
+    height: 30vh;
+    position: absolute;
+    left: 45px;
+    top: 259px;
+    z-index: -801;
+    box-shadow: 0 0 10px blue;
+}
+
+#phone {
+    width: 17%;
+    position: absolute;
+    top: 50px;
+    right: 545px;
+    z-index: -802;
+    box-shadow: 0 0 10px yellow;
+}
+
+#guitare {
+    width: 15%;
+    position: absolute;
+    top: 300px;
+    right: 135px;
+    z-index: -803;
+    box-shadow: 0 0 10px pink;
+}
+
+#nuance {
+    width: 20%;
+    position: absolute;
+    left: 845px;
+    top: 459px;
+    z-index: -800;
+    box-shadow: 0 0 12px hotpink;
+}
+
+#management {
+    width: 25%;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: -900;
+    box-shadow: 0 0 12px yellow;
+}
+
+#computer {
+    width: 25%;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    z-index: -1000;
+    box-shadow: 0 0 12px black;
+}
+
+#creativity {
+    width: 45%;
+    position: absolute;
+    top: 1200px;
+    left: 525px;
+    z-index: -900;
+    box-shadow: 0 0 15px yellow;
+}
+
+#working {
+    width: 35%;
+    position: absolute;
+    top: 20px;
+    left: 525px;
+    z-index: -900;
+    box-shadow: 0 0 15px black;
+}
+
+#joshua {
+    width: 25%;
+    position: absolute;
+    top: 600px;
+    left: 45px;
+    z-index: -900;
+    box-shadow: 0 0 15px blue;
+}
+
+#vinyl {
+    width: 20%;
+    position: absolute;
+    left: 245px;
+    top: 459px;
+    z-index: -800;
+    box-shadow: 0 0 12px black;
+}
+
+#surf {
+    width: 25%;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: -900;
+    box-shadow: 0 0 12px black;
+}
+
+#board {
+    width: 25%;
+    position: absolute;
+    top: 200px;
+    right: 15px;
+    z-index: -1000;
+    box-shadow: 0 0 12px black;
+}
+
+#musique {
+    width: 25%;
+    position: absolute;
+    top: 460px;
+    right: 485px;
+    z-index: -1000;
+    box-shadow: 0 0 12px black;
+}
+
+strong {
+    font-size: 22px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1024px) {
+
+    nav {
+        position: static;
+        margin: auto;
+        overflow: visible;
+        z-index: 1000;
+       
+    }
+
+    ul.active{
+      position: absolute;
+       box-shadow: 0 0 10px black;
+       background-color: white;
+
+    }
+
+    .header-name {
+        min-width: 100%;
+    }
+
+    .header-name h1 {
+        font-size: 20px;
+    }
+
+    .header-name strong {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    #ananas {
+        min-width: 38%;
+        max-width: 40%;
+        min-height: 18%;
+        max-height: 20%;
+        left: 45px;
+        top: 459px;
+    }
+
+    #phone {
+        max-width: 42%;
+        min-width: 40%;
+        min-height: 35%;
+        max-height: 38%;
+        top: 850px;
+        right: 45px;
+    }
+
+    #guitare {
+        min-width: 35%;
+        max-width: 36%;
+        max-height: 30%;
+        min-height: 25%;
+        top: 80px;
+        right: 10px;
+    }
+
+
+    #nuance {
+        width: 20%;
+        left: 50px;
+        top: 200px;
+        box-shadow: 0 0 12px hotpink;
+    }
+
+    #management {
+        width: 25%;
+        top: 650px;
+        left: 45px;
+        box-shadow: 0 0 12px yellow;
+    }
+
+    #computer {
+        width: 25%;
+        top: 400px;
+        right: 15px;
+        box-shadow: 0 0 12px black;
+    }
+
+    #working {
+        width: 25%;
+        top: 1050px;
+        left: 50px;
+    }
+
+    #creativity {
+        width: 20%;
+        top: 250px;
+        left: 10px;
+    }
+
+    #joshua {
+        width: 25%;
+        position: absolute;
+        top: 600px;
+        left: 245px;
+        z-index: -900;
+        box-shadow: 0 0 15px blue;
+    }
+
+    h3 {
+        font-size: 25px;
+        text-align: center;
+        transform: none;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 10px;
+    }
+
+
+    .second p {
+        padding-left: 0;
+        text-align: center;
+        font-size: 13px;
+        max-height: 100%;
+    }
+
+    .curiculum,
+    .diplome,
+    .sketch,
+    .team,
+    .devweb {
+        padding: 25px;
+    }
+
+    .job {
+        padding: 15px;
+    }
+
+    .job h4 {
+
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 3px;
+
+    }
+
+    .third {
+
+        justify-content: center;
+    }
+
+    .third p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .list {
+        padding-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-experience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .title-joker {
+        text-align: center;
+        background-image: url(../pictures/tim-marshall-sBHLP9iD-Pk-unsplash.jpg);
+        color: white;
+        font-size: 20px;
+    }
+
+    .title-pro {
+        position: static;
+
+        text-align: center;
+        font-size: 15px;
+        transform: none;
+
+
+    }
+
+
+    .atouts h4 {
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .fourth p {
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+
+    .fifth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .fifth p {
+        text-align: center;
+    }
+
+    #surf {
+        max-width: 35%;
+        max-height: 20%;
+        top: 450px;
+        left: 45px;
+        z-index: -900;
+    }
+
+    #board {
+        max-width: 45%;
+        max-height: 20%;
+        top: 650px;
+        right: 225px;
+        z-index: -1000;
+    }
+
+    #musique {
+        max-width: 35%;
+        top: 560px;
+        right: 65px;
+        z-index: -1000;
+    }
+
+    #vinyl {
+        max-width: 30%;
+        left: 285px;
+        top: 480px;
+        z-index: -800;
+
+    }
+
+
+
+}
